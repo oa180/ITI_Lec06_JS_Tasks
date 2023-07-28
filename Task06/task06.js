@@ -1,9 +1,9 @@
 // Reverse Args #1
 
-function reeverseArgsFunction1() {
-  let myArgs = [...arguments];
+function reeverseArgsFunction1(...myArgs) {
+  // let myArgs = [...arguments];
 
-  let reversedArgs = myArgs.slice();
+  let reversedArgs = myArgs;
 
   for (let i = 0, j = reversedArgs.length - 1; i < j && i != j; i++, j--) {
     // console.log(i, " ", j);
