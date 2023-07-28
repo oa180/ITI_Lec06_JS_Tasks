@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  margin-top: 70px;
+  text-align: center;
+}
+
+body {
+}
+
+.formContainer {
+  position: relative;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.inputsContainer {
+  margin: 30px 20px;
+  /* padding: 20px; */
+  display: flex;
+  font-size: 23 px;
+  justify-content: center;
+  /* text-align: center; */
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+input {
+  padding: 15px;
+}
+input[type="radio"] {
+  background-color: aqua;
+  margin: 50px;
+}
+label {
+  padding: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 70px;
+}
+button {
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: burlywood;
+}
+
+.colorList {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 90px;
+}
+
+#colorList {
+  width: 90px;
+  height: 30px;
+}

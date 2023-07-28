@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="task01.css" />
+    <title>Cookies</title>
+  </head>
+  <body>
+    <h1>Hello Cookies</h1>
+
+    <div class="formContainer">
+      <form class="myForm" action="./result.html">
+        <div class="inputsContainer">
+          <label for="userName">Enter Your Name</label>
+          <input type="text" class="userName" />
+          <label for="userAge">Enter Your Age</label>
+          <input type="text" class="userAge" />
+        </div>
+        <div class="gender">
+          <label for="">Select Your Gender</label>
+          <input type="radio" name="gender" id="male" />
+          <label for="male"><img src="./IMG-20230728-WA0023.jpg" /></label>
+          <input type="radio" name="gender" id="female" />
+          <label for="male"><img src="./IMG-20230728-WA0021.jpg" /></label>
+        </div>
+        <div class="colorList">
+          <label for="colorSelect"></label>
+          <select name="colorSelect" id="colorList">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+          </select>
+        </div>
+        <div class="btn">
+          <button type="submit" id="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="./cookiesLibrary.js"></script>
+  </body>
+</html>
